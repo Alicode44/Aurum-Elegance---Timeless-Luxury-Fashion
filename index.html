@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Aurum Elegance | Timeless Luxury Fashion</title>
+  <!-- Font Awesome 6 (free) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <!-- Google Font for elegance -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header class="site-header">
+  <div class="navbar">
+    <div class="logo">AURUM<span> ELEGANCE</span></div>
+
+    <!-- Desktop Navigation -->
+    <ul class="nav-menu">
+      <li><a href="#"><i class="fas fa-home" style="margin-right: 6px;"></i>Home</a></li>
+      <li><a href="#"><i class="fas fa-store" style="margin-right: 6px;"></i>Shop</a></li>
+      <li><a href="#"><i class="fas fa-star" style="margin-right: 6px;"></i>New Arrivals</a></li>
+      <li><a href="#"><i class="fas fa-info-circle" style="margin-right: 6px;"></i>About</a></li>
+      <li><a href="#"><i class="fas fa-envelope" style="margin-right: 6px;"></i>Contact</a></li>
+    </ul>
+
+    <div class="nav-icons">
+      <a href="#" aria-label="Search"><i class="fas fa-search"></i></a>
+      <a href="#" aria-label="Bag"><i class="fas fa-shopping-bag"></i></a>
+      <a href="#" aria-label="User"><i class="fas fa-user"></i></a>
+    </div>
+
+    <!-- Hamburger -->
+    <label for="menu-toggle" class="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </label>
+  </div>
+
+  <input type="checkbox" id="menu-toggle" style="display: none;" />
+  <label for="menu-toggle" class="mobile-nav-overlay"></label>
+
+  <!-- Mobile Menu Panel -->
+  <div class="mobile-menu-panel">
+    <label for="menu-toggle" class="close-menu" aria-label="Close Menu"><i class="fas fa-times"></i></label>
+    
+    <div class="menu-header">
+      <div class="greeting">Welcome back,</div>
+      <div class="username">Fashionista <i class="fas fa-sparkles" style="color: var(--gold);"></i></div>
+    </div>
+
+    <div class="mobile-menu-list">
+      <a href="#"><span class="menu-icon"><i class="fas fa-home"></i></span><span>Home</span></a>
+      <a href="#"><span class="menu-icon"><i class="fas fa-store"></i></span><span>Shop</span></a>
+      <a href="#"><span class="menu-icon"><i class="fas fa-star"></i></span><span>New Arrivals</span></a>
+      <a href="#"><span class="menu-icon"><i class="fas fa-clock"></i></span><span>Watches</span></a>
+      <a href="#"><span class="menu-icon"><i class="fas fa-gem"></i></span><span>Jewelry</span></a>
+      <a href="#"><span class="menu-icon"><i class="fas fa-bag-shopping"></i></span><span>Handbags</span></a>
+      <a href="#"><span class="menu-icon"><i class="fas fa-shirt"></i></span><span>Clothes</span></a>
+      <a href="#"><span class="menu-icon"><i class="fas fa-shoe-prints"></i></span><span>Shoes</span></a>
+      <a href="#"><span class="menu-icon"><i class="fas fa-couch"></i></span><span>Home Decor</span></a>
+      <a href="#"><span class="menu-icon"><i class="fas fa-crown"></i></span><span>Accessories</span></a>
+      <a href="#"><span class="menu-icon"><i class="fas fa-book"></i></span><span>About Us</span></a>
+      <a href="#"><span class="menu-icon"><i class="fas fa-phone"></i></span><span>Contact</span></a>
+      <a href="#"><span class="menu-icon"><i class="fas fa-lock"></i></span><span>Login / Sign In</span></a>
+      <a href="#"><span class="menu-icon"><i class="fas fa-heart"></i></span><span>Wishlist</span></a>
+    </div>
+
+    <div class="menu-footer">
+      <p><i class="fas fa-sparkles" style="color: var(--gold);"></i> Timeless Luxury Refined</p>
+      <p style="margin-top: 0.3rem;"><i class="fas fa-truck"></i> Free shipping on orders $100+</p>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-container">
+      <div class="hero-text">
+        <div class="subtitle"><i class="fas fa-crown" style="margin-right: 6px;"></i>AURUM ELEGANCE</div>
+        <h1>Timeless Luxury<br>Refined</h1>
+        <p>Discover high-end watches, fine jewelry, artisan home decor & couture. Embrace a new standard of elegance.</p>
+        <a href="#" class="btn-gold"><i class="fas fa-arrow-right" style="margin-right: 8px;"></i>Shop New Arrivals </a>
+      </div>
+      <div class="hero-image">
+        <div class="img-placeholder"><i class="fas fa-gem" style="color: #b8945c; font-size: 4rem;"></i> <i class="fas fa-bag-shopping" style="color: #b8945c; font-size: 4rem; margin-left: 0.5rem;"></i></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filter + Products -->
+  <div class="shop-section">
+    <div class="filter-grid">
+      <div class="filter-group">
+        <h4><i class="fas fa-tags"></i> CATEGORIES</h4>
+        <ul>
+          <li><i class="fas fa-paint-brush" style="width: 1.4rem;"></i> Crayons </li>
+          <li><i class="fas fa-shoe-prints" style="width: 1.4rem;"></i> Shoes</li>
+          <li><i class="fas fa-tshirt" style="width: 1.4rem;"></i> Clothes</li>
+          <li><i class="fas fa-bag-shopping" style="width: 1.4rem;"></i> Handbags</li>
+          <li><i class="fas fa-crown" style="width: 1.4rem;"></i> Accessories</li>
+          <li><i class="fas fa-ellipsis-h" style="width: 1.4rem;"></i> Miscellaneous</li>
+        </ul>
+      </div>
+      <div class="filter-group">
+        <h4><i class="fas fa-dollar-sign"></i> PRICE RANGE</h4>
+        <ul>
+          <li><span>High-End Product</span> <span class="price-range">$10.00+</span></li>
+          <li><span>Luxury Essential</span> <span class="price-range">$20.00</span></li>
+          <li><span>Premium Selection</span> <span class="price-range">$45.00+</span></li>
+          <li><span>Low and Home</span> <span class="price-range">$25.00 - $45.00</span></li>
+        </ul>
+      </div>
+      <div class="filter-group">
+        <h4><i class="fas fa-thread"></i> MATERIAL</h4>
+        <ul>
+          <li><i class="fas fa-cog" style="width: 1.4rem;"></i> Metal</li>
+          <li><i class="fas fa-tree" style="width: 1.4rem;"></i> Wood</li>
+          <li><i class="fas fa-leather" style="width: 1.4rem;"></i> Leather</li>
+          <li><i class="fas fa-feather" style="width: 1.4rem;"></i> Silk & Cashmere</li>
+        </ul>
+      </div>
+      <div class="filter-group">
+        <h4><i class="fas fa-clock"></i> HIGH-END WATCHES</h4>
+        <ul>
+          <li><span>Rose Gold Chrono</span> <span class="price-range">$1,000</span></li>
+          <li><span>Diamond Edition</span> <span class="price-range">$2,000</span></li>
+          <li><span>Presidential</span> <span class="price-range">$3,000</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Product Grid -->
+    <div class="products-showcase">
+      <h2 class="section-title"><i class="fas fa-star" style="color: var(--gold); margin-right: 10px;"></i> New Arrivals — The Collection</h2>
+      <div class="product-grid">
+        <div class="product-card"><div class="product-img"><i class="fas fa-clock" style="font-size: 3.8rem; color: #a67c4e;"></i></div><div class="product-info"><div class="product-title">Aurum Chronograph</div><div class="product-category"><i class="fas fa-clock" style="margin-right: 4px;"></i> High-end watches</div><div class="product-price">$1,000</div></div></div>
+        <div class="product-card"><div class="product-img"><i class="fas fa-gem" style="font-size: 3.8rem; color: #b8945c;"></i></div><div class="product-info"><div class="product-title">Diamond Pendant</div><div class="product-category"><i class="fas fa-gem" style="margin-right: 4px;"></i> High-end jewelry</div><div class="product-price">$2,500</div></div></div>
+        <div class="product-card"><div class="product-img"><i class="fas fa-flask" style="font-size: 3.8rem; color: #a67c4e;"></i></div><div class="product-info"><div class="product-title">Marble Vase Set</div><div class="product-category"><i class="fas fa-couch" style="margin-right: 4px;"></i> Home decor items</div><div class="product-price">$1,200</div></div></div>
+        <div class="product-card"><div class="product-img"><i class="fas fa-vest" style="font-size: 3.8rem; color: #8b6f4c;"></i></div><div class="product-info"><div class="product-title">Cashmere Coat</div><div class="product-category"><i class="fas fa-tshirt" style="margin-right: 4px;"></i> Clothes</div><div class="product-price">$2,400</div></div></div>
+        <div class="product-card"><div class="product-img"><i class="fas fa-bag-shopping" style="font-size: 3.8rem; color: #b8945c;"></i></div><div class="product-info"><div class="product-title">Signature Tote</div><div class="product-category"><i class="fas fa-bag-shopping" style="margin-right: 4px;"></i> Handbags</div><div class="product-price">$3,500</div></div></div>
+        <div class="product-card"><div class="product-img"><i class="fas fa-spa" style="font-size: 3.8rem; color: #a67c4e;"></i></div><div class="product-info"><div class="product-title">Aromatherapy Craft</div><div class="product-category"><i class="fas fa-spa" style="margin-right: 4px;"></i> Meditation / Crafts</div><div class="product-price">$1,000</div></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About + Contact + Login -->
+  <div class="info-row">
+    <div class="info-card">
+      <h3><i class="fas fa-user-tie" style="margin-right: 8px;"></i> Fashionista</h3>
+      <p><i class="fas fa-quote-left" style="color: var(--gold);"></i> Timeless luxury meets modern artistry. Aurum Elegance curates high-end watches, jewelry, and home decor with a passion for refinement.</p>
+      <p><i class="fas fa-map-pin"></i> Flagship at Milan & New York</p>
+      <p><i class="fas fa-link"></i> <a href="#">Contact</a></p>
+    </div>
+    <div class="info-card">
+      <h3><i class="fas fa-phone-alt" style="margin-right: 8px;"></i> Contact</h3>
+      <p><i class="fas fa-phone"></i> +1 (800) 123-4567</p>
+      <p><i class="fas fa-envelope"></i> concierge@aurumelegance.com</p>
+      <p><i class="fas fa-globe"></i> www.aurumelegance.com</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook-f"></i> FB</a>
+        <a href="#"><i class="fab fa-instagram"></i> IG</a>
+        <a href="#"><i class="fab fa-x-twitter"></i> X</a>
+      </div>
+      <p><strong><i class="fas fa-credit-card"></i> Payment:</strong> Cash on Delivery • PayPal</p>
+    </div>
+    <div class="info-card login-card">
+      <h3><i class="fas fa-sign-in-alt" style="margin-right: 8px;"></i> Login / Sign In</h3>
+      <input type="email" placeholder="Email address" />
+      <input type="password" placeholder="Password" />
+      <button><i class="fas fa-arrow-right-to-bracket"></i> Sign In</button>
+      <p style="font-size: 0.7rem; margin-top: 0.7rem; text-align: center;">New customer? <a href="#" style="color: var(--gold-dark);"><i class="fas fa-user-plus"></i> Create account</a></p>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <p><i class="fas fa-crown" style="color: var(--gold);"></i> © 2025 AURUM ELEGANCE — Timeless Luxury Refined. All rights reserved.</p>
+  <p style="margin-top: 0.5rem;"><i class="fas fa-clock"></i> High-end watches | <i class="fas fa-gem"></i> Jewelry | <i class="fas fa-couch"></i> Home Decor | <i class="fas fa-feather"></i> Leather craftsmanship</p>
+</footer>
+
+</body>
+</html>
