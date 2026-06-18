@@ -3,13 +3,18 @@ Aurum Elegance is a sophisticated, responsive HTML/CSS landing page designed for
 👤 Author
 Ali Valisoltani
 
+
 GitHub: @Alicode44
+
 https://github.com/Alicode44/Aurum-Elegance---Timeless-Luxury-Fashion.git
 
 🌐 preview
-<img width="1920" height="2712" alt="desktop view" src="https://github.com/user-attachments/assets/f14dd2af-1b4b-4757-809d-621101c679de" />
+<img width="1920" height="2712" alt="Desktop wiew" src="https://github.com/user-attachments/assets/a5901927-5004-4740-9d0b-ce314f76d048" />
 
-<img width="414" height="6052" alt="phone view" src="https://github.com/user-attachments/assets/5974e37e-448d-4f0c-999e-b44bc1fd2b44" />
+<img width="414" height="6052" alt="phone view" src="https://github.com/user-attachments/assets/b743d6ac-5f81-41a5-b3a5-f645d0790b23" />
+
+
+
 
 Features
 ✨ Design Elements
